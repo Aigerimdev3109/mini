@@ -25,7 +25,7 @@ a {
 .one h2 {
     color: #FFF;
 font-size: 20px;
-font-weight: 700;
+font-weight: 700; 
 }
 .start a {
     color: #FFF;
@@ -75,23 +75,24 @@ transform: scale(1.1);
 }
 .hero {
     position: relative;
-
-    background: url(../img/Rectangle\ 3.png) no-repeat center/cover;
+    background: #16522d;
    width: 1300px;
-height: 951px;
+height: 855px;
+
 }
 .txt {
     position: absolute;
     width: 640px;
+    left: 750px;
 height: 827px;
-transform: translateY(-5px);
+transform: translateY(50px);
 }
 .jim {
     position: absolute;
     display: flex;
     align-items:flex-start;
     flex-direction: column;
-    padding: 150px 0 100px 70px;
+    padding: 80px 0 50px 70px;
 }
 
 .jim button {
@@ -227,6 +228,7 @@ font-size: 20px;
 font-weight: 600;
 width: 225px;
 border: 0;
+margin: 0 0 0 140px;
 height: 79px;
 border-radius: 27px;
 background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
@@ -255,6 +257,7 @@ padding-top: 150px;
 .cream input {
     position: relative;
     transform: translateX(250px);
+   padding: 0 0 0 50px;
     color: #0F1F1C;
 font-size: 24px;
 align-items: center;
@@ -269,7 +272,6 @@ background: linear-gradient(0deg, #FFF 0%, #FFF 100%), #C4C4C4;
 .cream button {
     position: absolute;
     transform: translateX(-70px);
-  
     color: #FFF;
     text-align: center;
     font-size: 25px;
@@ -334,4 +336,162 @@ background: linear-gradient(0deg, #FF7C4E 0%, #FF7C4E 100%), #C4C4C4;
 }
 .purple h3 {
  margin: 0 250px 0 20px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        border: none;
+    }
+    .header {
+        width: 700px;
+      
+    }
+    .start-end button {
+        width: 60px;
+        height: 23px;
+        border: 0;
+    }
+.hero {
+    width: 700px;
+    height: 450px;
+}
+.header a  {
+  display: none;
+}
+.txt img {
+  position: absolute;
+  right: 710px;
+  transform: translateY(-25px);
+width: 290px;
+
+}
+.jim button {
+    width: 130px;
+    height: 35px;
+   font-size: 12px;
+   margin: -50px 0 -10px;
+}
+.min h1 {
+font-size: 28px;
+}
+.min p {
+font-size: 15px;
+margin: -30px 0 20px ;
+}
+.min button {
+font-size: 14px;
+width: 150px;
+height: 40px;
+margin: 20px 0;
+}
+.active {
+    margin: 0 -60px ;
+}
+.ab {
+    margin: 60px 0 0 -90px;
+}
+.active img {
+width: 300px;
+height: 300px;
+margin: 40px 0 0 80px;
+}
+.ab h2 {
+font-size: 25px;
+}
+.cd {
+    margin: -20px 0 20px -100px;
+}
+.cd img {
+    margin: 20px 0 0 100px;
+ width: 55px;
+ height: 50px;
+}
+.cd h4 {
+font-size: 16px;
+padding-top: 20px;
+}
+.cd p {
+font-size: 12px;
+}
+.ab p {
+font-size: 11px;
+}
+.star span {
+width: 60px;
+font-size: 20px;
+height: 60px;
+}
+.box h1 {
+    padding-top: 30px;
+ font-size: 20px;
+}
+.box p {
+    margin: 30px 0;
+font-size: 15px;
+}
+.box button {
+    margin: 0 0 0 80px;
+font-size: 10px;
+height: 39px;
+width: 110px;
+}
+.music {
+    position: absolute;
+    transform: translateY(-150px);
+}
+.box {
+margin: 50px 0 ;
+width: 700px;
+height: 150px;
+}
+.ice {
+width: 700px;
+height: 50px;
+}
+.milka h1{
+margin: -100px 0 50px 0;
+/* position: absolute; */
+/* transform: translateY(-50px); */
+ font-size: 25px;
+}
+.cream input {
+ font-size: 12px;
+margin: 0  0  0 -240px;
+ width: 600px;
+ height: 70px;
+}
+.cream button {
+position: absolute;
+transform: translateY(-50px);
+right: 80px;
+font-size: 10px;
+width: 100px;
+height: 50px;
+}
+
+.purple h3 {
+margin: 0 100px 0 140px;
+font-size: 10px;
+}
+.popcorn a  {
+display: none;
+}
+.flower a {
+
+font-size: 10px;
+}
+.flower button {
+width: 60px;
+height: 24px;
+font-size: 10px;
+}
+
 }

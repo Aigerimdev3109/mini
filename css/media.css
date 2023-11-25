@@ -1,4 +1,4 @@
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .container {
         width: 90%;
         
@@ -21,4 +21,20 @@ width: 200px;
     font-size: 15px;
 }
 
-} */
+.one h2 {
+    font-size: 10px;
+}
+.start a {
+    font-size: 5px;
+}
+.jim button {
+    font-size: 5px;
+}
+.min h1 {
+    font-size: 30px;
+    width: 250px;
+}
+.min p {
+    font-size: 10px;
+}
+}
